@@ -23,8 +23,8 @@ This is a library for search and optimization algorithms. The basic topics are c
   - [A*](#a)
   - [MinMaxSearch](#MinMaxSearch)
 - [Markov Decision Process](#Markov-Decision-Process)
-  - [Value Iteration](#Value Iteration)
-  - [Policy Iteration](#Policy Iteration)
+  - [Value Iteration](#Value-Iteration)
+  - [Policy Iteration](#Policy-Iteration)
   - [Q-Learning](#Q-Learning)
     - [BlackJack](#BlackJack)
 - [Monte-Carlo Tree Search](#Monte-Carlo-Tree-Search)
@@ -208,7 +208,7 @@ Here is the visualization. Each round we only update state values based on the n
 
 ![MC_PE.gif](MDP_with_Unknown_Environment/gif/MC_PE.gif)
 
-### Tabular Q-Learning
+### Q-Learning
 
 Monte Carlo Policy Evaluation and Temporal Difference Policy Evaluation only estimate the state values given the fixed policy. But how can we take the best action in MDP without a transition model? Q-learning solves the problem of learning about the environment and improving policy at the same time.
 
