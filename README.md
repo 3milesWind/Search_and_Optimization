@@ -117,7 +117,7 @@ The algorithm starts at the root node (selecting some arbitrary node as the root
 
 It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue is needed to keep track of the child nodes that were encountered but not yet explored.
 
-<img title="" src="SShortestPathofMazeProblem/gits/BFS.gif" alt="BFS.gif" width="432">
+<img title="" src="ShortestPathofMazeProblem/gits/BFS.gif" alt="BFS.gif" width="432">
 
 ### Dijkstra
 
