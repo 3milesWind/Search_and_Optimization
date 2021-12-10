@@ -88,7 +88,7 @@ For problems where finding an approximate global optimum is more important than 
 
 Here is the visualization of Simulated Annealing:
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/Stochastic_Search/gif/SA.gif" alt="SA.gif" width="497">
+<img title="" src="Stochastic_Search/gif/SA.gif" alt="SA.gif" width="497">
 
 
 
@@ -98,7 +98,7 @@ Simulated annealing algorithm is a random algorithm, it has a certain probabilit
 
 
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/TravellingSalesman/Simuted_annlea.gif" alt="Simuted_annlea.gif" width="507">
+<img title="" src="TravellingSalesman/Simuted_annlea.gif" alt="Simuted_annlea.gif" width="507">
 
 
 
@@ -110,7 +110,7 @@ Cross Entropy Methods first start with an initial distribution (often a diagonal
 
 Here is the visualization of CEM, where red points are elite samples.
 
-<img src="file:///Users/guoyili/Documents/GitHub/Stochastic_Search/gif/SG.gif" title="" alt="SG.gif" width="532">
+<img src="Stochastic_Search/gif/SG.gif" title="" alt="SG.gif" width="532">
 
 # Search Gradient
 
@@ -118,7 +118,7 @@ In high dimensions, it can quickly become very inefficient to randomly sample. I
 
 Here is the visualization of Search Gradient:
 
-<img src="file:///Users/guoyili/Documents/GitHub/Stochastic_Search/gif/SA.gif" title="" alt="SA.gif" width="551">
+<img src="Stochastic_Search/gif/SA.gif" title="" alt="SA.gif" width="551">
 
 # Classic-Search
 
