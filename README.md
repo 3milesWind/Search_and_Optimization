@@ -42,13 +42,13 @@ Example Function:
 
 - With a Optimal learning rate [Code](NumericalOptimization/gradientDescentWithOptimalRate.py)
 
-    <img src="Seach_and_Optimization/NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="491">
+    <img src="NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="491">
 
 ### Newton Method
 
 Example Function: [Code](NumericalOptimization/NewtonMethod.py)
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
+<img src="Seach_and_Optimization/NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
 
 
 
