@@ -21,6 +21,9 @@ This is a library for search and optimization algorithms. The basic topics are c
   - [Breadth-first search (BFS)](#breadth-first-search-bfs)
   - [Dijkstra](#dijkstra)
   - [A*](#a)
+  - MinMaxSearch
+- MinMaxSearch
+  -
 
 # Documentation
 
@@ -143,3 +146,71 @@ For a given source node in the graph, the algorithm finds the shortest path betw
 A* is an informed search algorithm, **or a best-first search**, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost
 
 <img src="ShortestPathofMazeProblem/gits/a.gif" title="" alt="a.gif" width="413">
+
+### MinMaxSearch
+
+uppose we are playing games with another one in turn. At the end of the game, there are certain payoffs. In the game, we make every move to maximize our the benefit or value and the opponent tries to minimize it. We can use Minimax Search on this max-min-player game to calculate every value of a tree node and then make the best move.
+
+Minimax Search
+
+Suppose we are playing games with another one in turn. At the end of the game, there are certain payoffs. In the game, we make every move to maximize our the benefit or value and the opponent tries to minimize it. We can use Minimax Search on this max-min-player game to calculate every value of a tree node and then make the best move.
+
+Here is the visualization for Minimax Search. The max players are the green nodes and blue nodes are the min players. At the end of the game, there are payoffs as grey nodes. Minimax calculate every nodes' value and the choice from bottom to top, visualized as orange texts and arrows. Finally as the root max player, the red nodes and arrows are showed as how we should play the game to get the maximum benefit.
+
+![minimax.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/Path_Search/gif/minimax.gif)
+
+#### 2048 Game
+
+![2048.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/MinMax/2048.gif)
+
+   
+
+A Markov decision process is composed of states, actions, transition probabilities and reward of states. It provides a mathematical framework for modeling decision making in situations where outcomes are partly random and partly under the control of a decision maker. At each states, we not only want to maximize the short-term reward but also long-term. So evaluating the value of a state is essential in MDP.
+
+Value Iteration and Policy Iteration are algorithms where we have the full knowledge of the MDP (the transition probabilities are known), computing the optimal policy and value.
+
+### Value Iteration
+
+Value Iteration start with arbitrary state value and use Bellman Update to update the values and pick the best policy.
+
+Here is the visualization. Green nodes are state node and blue nodes are the environment with the transition probability on the arrow pointing to the next state. When we do Bellman Update on a certain state, it will be marked as red and a new value is updated on its left. The best action is labeled as red arrow. We do Bellman Update for rounds until it converges.
+
+![value_iter.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP/gif/value_iter.gif)
+
+### Policy Iteration
+
+Policy Iteration starts with an arbitrary policy and solve the Bellman Equations to evaluate the values defined by the policy, then check each state to see if we can improve the max value. We keep doing this until the policy is fixed.
+
+Here is the visualization on the same MDP as in the Value Iteration. Nodes and arrows are the same as in Value Iteration, where as every state start with an arbitrary policy and update it every round.
+
+![policy_iter.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP/gif/policy_iter.gif)
+
+### Monte Carlo Policy Evaluation
+
+Monte Carlo Policy Evaluation simulates a lot of state sequences and use the average as the value of states.
+
+The visualization is as follow. Every time the algorithm generate a sequence of states and calculate their values and use the average as the value of states. Note that every state only have one action which is the fixed policy.
+
+![MC_PE.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/MC_PE.gif)
+
+### Temporal Difference Policy Evaluation
+
+Monte Carlo Policy Evaluating generate the whole sequence every time, which could be very time-consuming and even not practical when the MDP is infinite or has circles. Temporal Difference Policy Evaluation, however, utilizes the Bellman Equations and update on the way, without waiting for full sequences. In every step, it updates estimated values based on next sampled state without waiting for a final outcome.
+
+Here is the visualization. Each round we only update state values based on the next state.
+
+![MC_PE.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/MC_PE.gif)
+
+### Tabular Q-Learning
+
+Monte Carlo Policy Evaluation and Temporal Difference Policy Evaluation only estimate the state values given the fixed policy. But how can we take the best action in MDP without a transition model? Q-learning solves the problem of learning about the environment and improving policy at the same time.
+
+It starts with knowing nothing and pick actions based on epsilon-greedy policy (choose either exploration or exploitation with epsilon probability), and then update the value of state taking certain action, which is Q-value. By updating the Q-value on the fly, the policy will provably converge to the optimal.
+
+The visualization is as follow. We plot Q-value Q(s,a) in red next to the environment nodes. After Q-Learning, we can output a policy without knowing the transition model.
+
+![T_QL.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/T_QL.gif)
+
+## Monte-Carlo Tree Search
+
+Usually, the game tree can be extremely large like chess game which can take an impractical amount of time to do a full search of the game tree. Instead of growing game tree fully, we can use Monte-Carlo Tree Search to smartly grow game tree and ultimately make actions.
