@@ -13,8 +13,9 @@ This is a library for search and optimization algorithms. The basic topics are c
   - [Conjugate Descent](#conjugate-descent)
 - [Stochastic Search](#stochastic-search)
   - [Simulated-Annealing](#simulated-annealing)
-- [Cross Entropy Methods](#cross-entropy-methods)
-- [Search Gradient](#search-gradient)
+    - [Travelling Salesman Problem](####The Travelling Salesman Problem on Simulate Annealing)
+  - [Cross Entropy Methods](#cross-entropy-methods)
+  - [Search Gradient](#search-gradient)
 - [Classic-Search](#classic-search)
   - [Depth-First Search (DFS)](#depth-first-search-dfs)
   - [Breadth-first search (BFS)](#breadth-first-search-bfs)
@@ -87,9 +88,19 @@ For problems where finding an approximate global optimum is more important than 
 
 Here is the visualization of Simulated Annealing:
 
-The Travelling Salesman Problem [Link](TravellingSalesman/Simulated_Annealing.py)
+<img title="" src="file:///Users/guoyili/Documents/GitHub/Stochastic_Search/gif/SA.gif" alt="SA.gif" width="497">
 
-> Simulated annealing algorithm is a random algorithm, it has a certain probability to find the global optimal solution
+
+
+#### The Travelling Salesman Problem on Simulate Annealing
+
+Simulated annealing algorithm is a random algorithm, it has a certain probability to find the global optimal solution
+
+
+
+<img title="" src="file:///Users/guoyili/Documents/GitHub/TravellingSalesman/Simuted_annlea.gif" alt="Simuted_annlea.gif" width="507">
+
+
 
 # Cross Entropy Methods
 
@@ -99,11 +110,15 @@ Cross Entropy Methods first start with an initial distribution (often a diagonal
 
 Here is the visualization of CEM, where red points are elite samples.
 
+<img src="file:///Users/guoyili/Documents/GitHub/Stochastic_Search/gif/SG.gif" title="" alt="SG.gif" width="532">
+
 # Search Gradient
 
 In high dimensions, it can quickly become very inefficient to randomly sample. Ideally, we can use the derivative of the expectation of function value on the distribution we sampled, so that we can move the distribution in the direction that imroves the expectation. So Search Gradient borrows the idea of Gradient Method to do stochastic search. The overall algorithm uses this idea combined with log techniques, see reference for details.
 
 Here is the visualization of Search Gradient:
+
+<img src="file:///Users/guoyili/Documents/GitHub/Stochastic_Search/gif/SA.gif" title="" alt="SA.gif" width="551">
 
 # Classic-Search
 
