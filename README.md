@@ -13,7 +13,7 @@ This is a library for search and optimization algorithms. The basic topics are c
   - [Conjugate Descent](#conjugate-descent)
 - [Stochastic Search](#stochastic-search)
   - [Simulated-Annealing](#simulated-annealing)
-    - [Travelling Salesman Problem](####The Travelling Salesman Problem on Simulate Annealing)
+    - [Travelling Salesman Problem](#The-Travelling-Salesman-Problem-on-Simulate-Annealing)
   - [Cross Entropy Methods](#cross-entropy-methods)
   - [Search Gradient](#search-gradient)
 - [Classic-Search](#classic-search)
@@ -21,9 +21,14 @@ This is a library for search and optimization algorithms. The basic topics are c
   - [Breadth-first search (BFS)](#breadth-first-search-bfs)
   - [Dijkstra](#dijkstra)
   - [A*](#a)
-  - MinMaxSearch
-- MinMaxSearch
-  -
+  - [MinMaxSearch](#MinMaxSearch)
+- [Markov Decision Process](#Markov-Decision-Process)
+  - [Value Iteration](#Value Iteration)
+  - [Policy Iteration](#Policy Iteration)
+  - [Q-Learning](#Q-Learning)
+    - [BlackJack](#BlackJack)
+- [Monte-Carlo Tree Search](#Monte-Carlo-Tree-Search)
+  - [Gomoku Game](#Gomoku Game)
 
 # Documentation
 
@@ -165,6 +170,8 @@ Here is the visualization for Minimax Search. The max players are the green node
 
    
 
+# Markov Decision Process
+
 A Markov decision process is composed of states, actions, transition probabilities and reward of states. It provides a mathematical framework for modeling decision making in situations where outcomes are partly random and partly under the control of a decision maker. At each states, we not only want to maximize the short-term reward but also long-term. So evaluating the value of a state is essential in MDP.
 
 Value Iteration and Policy Iteration are algorithms where we have the full knowledge of the MDP (the transition probabilities are known), computing the optimal policy and value.
@@ -211,6 +218,22 @@ The visualization is as follow. We plot Q-value Q(s,a) in red next to the enviro
 
 ![T_QL.gif](MDP_with_Unknown_Environment/gif/T_QL.gif)
 
+#### BlackJack
+
+Base on the previous algorithem, the Ai win rate can reach to the 40%
+
+![blackJack.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/BlackJack/blackJack.gif)
+
 ## Monte-Carlo Tree Search
 
 Usually, the game tree can be extremely large like chess game which can take an impractical amount of time to do a full search of the game tree. Instead of growing game tree fully, we can use Monte-Carlo Tree Search to smartly grow game tree and ultimately make actions.
+
+![MCTS.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/MCTS/gif/MCTS.gif)
+
+#### Gomoku Game
+
+Players alternate turns placing a stone of their color on an empty intersection. Black plays first. The winner is the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally. Placing so that a line of more than five stones of the same color is created does not result in a win. These are called overlines
+
+note that I only put 1000 bugets for computer, so I can still lie to computer. If I can give more bugets, it will become smarter
+
+<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Gomoku/gomoku.gif" title="" alt="gomoku.gif" width="448">
