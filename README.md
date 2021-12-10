@@ -35,7 +35,7 @@ This is a library for search and optimization algorithms. The basic topics are c
 1. Clone this repo.
    
    git clone this repo
-   
+
 # Numerical Optimization
 
 *Numerical Optimization* presents a comprehensive and up-to-date description of the most effective methods in continuous optimization.
