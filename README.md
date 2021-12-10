@@ -175,7 +175,7 @@ Value Iteration start with arbitrary state value and use Bellman Update to updat
 
 Here is the visualization. Green nodes are state node and blue nodes are the environment with the transition probability on the arrow pointing to the next state. When we do Bellman Update on a certain state, it will be marked as red and a new value is updated on its left. The best action is labeled as red arrow. We do Bellman Update for rounds until it converges.
 
-![value_iter.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP/gif/value_iter.gif)
+![value_iter.gif](MDP/gif/value_iter.gif)
 
 ### Policy Iteration
 
@@ -183,7 +183,7 @@ Policy Iteration starts with an arbitrary policy and solve the Bellman Equations
 
 Here is the visualization on the same MDP as in the Value Iteration. Nodes and arrows are the same as in Value Iteration, where as every state start with an arbitrary policy and update it every round.
 
-![policy_iter.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP/gif/policy_iter.gif)
+![policy_iter.gif](MDP/gif/policy_iter.gif)
 
 ### Monte Carlo Policy Evaluation
 
@@ -191,7 +191,7 @@ Monte Carlo Policy Evaluation simulates a lot of state sequences and use the ave
 
 The visualization is as follow. Every time the algorithm generate a sequence of states and calculate their values and use the average as the value of states. Note that every state only have one action which is the fixed policy.
 
-![MC_PE.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/MC_PE.gif)
+![MC_PE.gif](Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/MC_PE.gif)
 
 ### Temporal Difference Policy Evaluation
 
@@ -199,7 +199,7 @@ Monte Carlo Policy Evaluating generate the whole sequence every time, which coul
 
 Here is the visualization. Each round we only update state values based on the next state.
 
-![MC_PE.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/MC_PE.gif)
+![MC_PE.gif](MDP_with_Unknown_Environment/gif/MC_PE.gif)
 
 ### Tabular Q-Learning
 
@@ -209,7 +209,7 @@ It starts with knowing nothing and pick actions based on epsilon-greedy policy (
 
 The visualization is as follow. We plot Q-value Q(s,a) in red next to the environment nodes. After Q-Learning, we can output a policy without knowing the transition model.
 
-![T_QL.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/T_QL.gif)
+![T_QL.gif](MDP_with_Unknown_Environment/gif/T_QL.gif)
 
 ## Monte-Carlo Tree Search
 
