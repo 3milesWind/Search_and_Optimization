@@ -4,21 +4,22 @@ This is a library for search and optimization algorithms. The basic topics are c
 
 # Table of Contents
 
-- [What is this?](#What-is-this)
-- [Documentation](#Documentation)
-- [Numerical Optimization](#Numerical-Optimization)
-  - [Gradient Descent](###Gradient-Descent)
-  - [Newton Method](###Newton-Method)
-  - [Conjugate Descent](###Conjugate Descent)
-- [Stochastic Search](#Stochastic-Search)
-  - [Simulated Annealing](###Simulated-Annealing)
-  - [Cross Entropy Methods](###Cross Entropy Methods)
-  - [Search Gradient](###Search Gradient)
-- [Classic Search](#Classic-Search)
-  - [Depth-First Search](###Depth-First Search)
-  - [Breadth-first search (BFS)](###Breadth-first search (BFS))
-  - [Dijkstra](###Dijkstra)
-  - [A*](###A*)
+- [This is a Python library for Search and Optimization.](#this-is-a-python-library-for-search-and-optimization)
+- [Table of Contents](#table-of-contents)
+- [Documentation](#documentation)
+- [Numerical Optimization](#numerical-optimization)
+    - [Gradient Descent](#gradient-descent)
+    - [Newton Method](#newton-method)
+    - [Conjugate Descent](#conjugate-descent)
+- [Stochastic Search](#stochastic-search)
+  - [Simulated-Annealing](#simulated-annealing)
+- [Cross Entropy Methods](#cross-entropy-methods)
+- [Search Gradient](#search-gradient)
+- [Classic-Search](#classic-search)
+    - [Depth-First Search (DFS)](#depth-first-search-dfs)
+    - [Breadth-first search (BFS)](#breadth-first-search-bfs)
+    - [Dijkstra](#dijkstra)
+    - [A*](#a)
 
 # Documentation
 
@@ -38,17 +39,17 @@ Example Function:
 
 - With a fixed learning rate [Code](NumericalOptimization/gradientDescentWithFixedRate.py)
   
-  <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/GradientDecWithFixedRate.gif" title="" alt="GradientDecWithFixedRate.gif" width="439">
+  <img src="NumericalOptimization/gits/GradientDecWithFixedRate.gif" title="" alt="GradientDecWithFixedRate.gif" width="478">
 
 - With a Optimal learning rate [Code](NumericalOptimization/gradientDescentWithOptimalRate.py)
 
-    <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="460">
+    <img src="NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="491">
 
 ### Newton Method
 
 Example Function: [Code](NumericalOptimization/NewtonMethod.py)
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
+<img src="NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
 
 Newton's method is a powerful technique—in general the [convergence](https://en.wikipedia.org/wiki/Rate_of_convergence) is quadratic: as the method converges on the root, the difference between the root
 
@@ -70,9 +71,11 @@ See details on [Newton's method in optimization - Wikipedia](https://en.wikipedi
 
 For quadratic problems, we can do better than generic directions of gradient. In Gradient Descent if we take the steepest descent, we always go onthogonal in every step. Can we go faster? Yes, Newton's method gives us a faster one. But at the same time, we also want to avoid calculating the inversion of certain matrics. Conjugate gradients give us a better way to perform descent method because they allow us to minimize convex quadratic objectives in at most n steps and without inverting the matrics.
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/CD_1.gif" alt="CD_1.gif" width="429">
+<img src="NumericalOptimization/gits/CD_1.gif" title="" alt="CD_1.gif" width="576">
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/CD_2.gif" alt="CD_2.gif" width="427">
+
+
+<img src="NumericalOptimization/gits/CD_2.gif" title="" alt="CD_2.gif" width="580">
 
 # Stochastic Search
 
@@ -110,7 +113,7 @@ Here is the visualization of Search Gradient:
 
 The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker.gif" alt="ezgif.com-gif-maker.gif" width="428">
+<img title="" src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker.gif" alt="ezgif.com-gif-maker.gif" width="428">
 
 ### Breadth-first search (BFS)
 
@@ -118,16 +121,16 @@ It starts at the tree root and explores all nodes at the present depth prior to 
 
 
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(1).gif" alt="ezgif.com-gif-maker (1).gif" width="442">
+<img title="" src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(1).gif" alt="ezgif.com-gif-maker (1).gif" width="442">
 
 ### Dijkstra
 
 For a given source node in the graph, the algorithm finds the shortest path between that node and every other with cost
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(3).gif" title="" alt="ezgif.com-gif-maker (3).gif" width="433">
+<img src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(3).gif" title="" alt="ezgif.com-gif-maker (3).gif" width="433">
 
 ### A*
 
 A* is an informed search algorithm, **or a best-first search**, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(4).gif" title="" alt="ezgif.com-gif-maker (4).gif" width="441">
+<img src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(4).gif" title="" alt="ezgif.com-gif-maker (4).gif" width="441">
