@@ -1,6 +1,6 @@
 # This is a Python library for Search and Optimization.
 
-This is a library for search and optimization algorithms. The basic topics are covered which include Descent Method, Stochastic Search, Path Search, MDP-related and RL related algorithms. By using this library, you are expected to see basic ideas behind the algorithms through simple but
+This is a library for search and optimization algorithms. The basic topics are covered which include Descent Method, Stochastic Search, Path Search, MDP-related and RL related algorithms.
 
 # Table of Contents
 
