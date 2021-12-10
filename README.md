@@ -157,11 +157,11 @@ Suppose we are playing games with another one in turn. At the end of the game, t
 
 Here is the visualization for Minimax Search. The max players are the green nodes and blue nodes are the min players. At the end of the game, there are payoffs as grey nodes. Minimax calculate every nodes' value and the choice from bottom to top, visualized as orange texts and arrows. Finally as the root max player, the red nodes and arrows are showed as how we should play the game to get the maximum benefit.
 
-![minimax.gif](/Users/guoyili/Desktop/Search-and-Optimization-main/Path_Search/gif/minimax.gif)
+![minimax.gif](Path_Search/gif/minimax.gif)
 
 #### 2048 Game
 
-![2048.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/MinMax/2048.gif)
+![2048.gif](MinMax/2048.gif)
 
    
 
@@ -191,7 +191,7 @@ Monte Carlo Policy Evaluation simulates a lot of state sequences and use the ave
 
 The visualization is as follow. Every time the algorithm generate a sequence of states and calculate their values and use the average as the value of states. Note that every state only have one action which is the fixed policy.
 
-![MC_PE.gif](Search-and-Optimization-main/MDP_with_Unknown_Environment/gif/MC_PE.gif)
+![MC_PE.gif](MDP_with_Unknown_Environment/gif/MC_PE.gif)
 
 ### Temporal Difference Policy Evaluation
 
