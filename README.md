@@ -8,18 +8,18 @@ This is a library for search and optimization algorithms. The basic topics are c
 - [Table of Contents](#table-of-contents)
 - [Documentation](#documentation)
 - [Numerical Optimization](#numerical-optimization)
-    - [Gradient Descent](#gradient-descent)
-    - [Newton Method](#newton-method)
-    - [Conjugate Descent](#conjugate-descent)
+  - [Gradient Descent](#gradient-descent)
+  - [Newton Method](#newton-method)
+  - [Conjugate Descent](#conjugate-descent)
 - [Stochastic Search](#stochastic-search)
   - [Simulated-Annealing](#simulated-annealing)
 - [Cross Entropy Methods](#cross-entropy-methods)
 - [Search Gradient](#search-gradient)
 - [Classic-Search](#classic-search)
-    - [Depth-First Search (DFS)](#depth-first-search-dfs)
-    - [Breadth-first search (BFS)](#breadth-first-search-bfs)
-    - [Dijkstra](#dijkstra)
-    - [A*](#a)
+  - [Depth-First Search (DFS)](#depth-first-search-dfs)
+  - [Breadth-first search (BFS)](#breadth-first-search-bfs)
+  - [Dijkstra](#dijkstra)
+  - [A*](#a)
 
 # Documentation
 
@@ -73,8 +73,6 @@ For quadratic problems, we can do better than generic directions of gradient. In
 
 <img src="NumericalOptimization/gits/CD_1.gif" title="" alt="CD_1.gif" width="576">
 
-
-
 <img src="NumericalOptimization/gits/CD_2.gif" title="" alt="CD_2.gif" width="580">
 
 # Stochastic Search
@@ -113,24 +111,22 @@ Here is the visualization of Search Gradient:
 
 The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
-<img title="" src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker.gif" alt="ezgif.com-gif-maker.gif" width="428">
+<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/dfs.gif" alt="dfs.gif" width="417">
 
 ### Breadth-first search (BFS)
 
 It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue is needed to keep track of the child nodes that were encountered but not yet explored.
 
-
-
-<img title="" src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(1).gif" alt="ezgif.com-gif-maker (1).gif" width="442">
+<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/BFS.gif" alt="BFS.gif" width="432">
 
 ### Dijkstra
 
 For a given source node in the graph, the algorithm finds the shortest path between that node and every other with cost
 
-<img src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(3).gif" title="" alt="ezgif.com-gif-maker (3).gif" width="433">
+<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ucs.gif" title="" alt="ucs.gif" width="427">
 
 ### A*
 
 A* is an informed search algorithm, **or a best-first search**, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost
 
-<img src="Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(4).gif" title="" alt="ezgif.com-gif-maker (4).gif" width="441">
+<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/a.gif" title="" alt="a.gif" width="413">
