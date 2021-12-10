@@ -48,7 +48,7 @@ Example Function:
 
 Example Function: [Code](NumericalOptimization/NewtonMethod.py)
 
-<img src="Seach_and_Optimization/NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
+<img src="NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
 
 
 
@@ -72,11 +72,11 @@ See details on [Newton's method in optimization - Wikipedia](https://en.wikipedi
 
 For quadratic problems, we can do better than generic directions of gradient. In Gradient Descent if we take the steepest descent, we always go onthogonal in every step. Can we go faster? Yes, Newton's method gives us a faster one. But at the same time, we also want to avoid calculating the inversion of certain matrics. Conjugate gradients give us a better way to perform descent method because they allow us to minimize convex quadratic objectives in at most n steps and without inverting the matrics.
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/CD_1.gif" title="" alt="CD_1.gif" width="576">
+<img src="NumericalOptimization/gits/CD_1.gif" title="" alt="CD_1.gif" width="576">
 
 
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/CD_2.gif" title="" alt="CD_2.gif" width="580">
+<img src="NumericalOptimization/gits/CD_2.gif" title="" alt="CD_2.gif" width="580">
 
 # Stochastic Search
 
