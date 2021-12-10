@@ -222,13 +222,13 @@ The visualization is as follow. We plot Q-value Q(s,a) in red next to the enviro
 
 Base on the previous algorithem, the Ai win rate can reach to the 40%
 
-![blackJack.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/BlackJack/blackJack.gif)
+![blackJack.gif](BlackJack/blackJack.gif)
 
 ## Monte-Carlo Tree Search
 
 Usually, the game tree can be extremely large like chess game which can take an impractical amount of time to do a full search of the game tree. Instead of growing game tree fully, we can use Monte-Carlo Tree Search to smartly grow game tree and ultimately make actions.
 
-![MCTS.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/MCTS/gif/MCTS.gif)
+![MCTS.gif](MCTS/gif/MCTS.gif)
 
 #### Gomoku Game
 
@@ -236,4 +236,4 @@ Players alternate turns placing a stone of their color on an empty intersection.
 
 note that I only put 1000 bugets for computer, so I can still lie to computer. If I can give more bugets, it will become smarter
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Gomoku/gomoku.gif" title="" alt="gomoku.gif" width="448">
+<img src="Gomoku/gomoku.gif" title="" alt="gomoku.gif" width="448">
