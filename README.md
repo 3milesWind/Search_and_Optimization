@@ -111,7 +111,7 @@ Here is the visualization of Search Gradient:
 
 The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
-<img title="" src="Shortest-Path-of-Maze-Problem/gits/dfs.gif" alt="dfs.gif" width="417">
+<img title="" src="./Shortest-Path-of-Maze-Problem/gits/dfs.gif" alt="dfs.gif" width="417">
 
 ### Breadth-first search (BFS)
 
