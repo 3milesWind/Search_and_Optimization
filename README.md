@@ -28,7 +28,7 @@ This is a library for search and optimization algorithms. The basic topics are c
   - [Q-Learning](#Q-Learning)
     - [BlackJack](#BlackJack)
 - [Monte-Carlo Tree Search](#Monte-Carlo-Tree-Search)
-  - [Gomoku Game](#Gomoku Game)
+  - [Gomoku Game](#Gomoku-Game)
 
 # Documentation
 
