@@ -117,16 +117,16 @@ The algorithm starts at the root node (selecting some arbitrary node as the root
 
 It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue is needed to keep track of the child nodes that were encountered but not yet explored.
 
-<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/BFS.gif" alt="BFS.gif" width="432">
+<img title="" src="SShortestPathofMazeProblem/gits/BFS.gif" alt="BFS.gif" width="432">
 
 ### Dijkstra
 
 For a given source node in the graph, the algorithm finds the shortest path between that node and every other with cost
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ucs.gif" title="" alt="ucs.gif" width="427">
+<img src="ShortestPathofMazeProblem/gits/ucs.gif" title="" alt="ucs.gif" width="427">
 
 ### A*
 
 A* is an informed search algorithm, **or a best-first search**, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost
 
-<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/a.gif" title="" alt="a.gif" width="413">
+<img src="ShortestPathofMazeProblem/gits/a.gif" title="" alt="a.gif" width="413">
