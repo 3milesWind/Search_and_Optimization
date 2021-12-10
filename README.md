@@ -162,7 +162,7 @@ Suppose we are playing games with another one in turn. At the end of the game, t
 
 Here is the visualization for Minimax Search. The max players are the green nodes and blue nodes are the min players. At the end of the game, there are payoffs as grey nodes. Minimax calculate every nodes' value and the choice from bottom to top, visualized as orange texts and arrows. Finally as the root max player, the red nodes and arrows are showed as how we should play the game to get the maximum benefit.
 
-![minimax.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/MinMax/minimax.gif)
+![minimax.gif](MinMax/minimax.gif)
 
 #### 2048 Game
 
