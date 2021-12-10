@@ -90,17 +90,11 @@ Here is the visualization of Simulated Annealing:
 
 <img title="" src="Stochastic_Search/gif/SA.gif" alt="SA.gif" width="497">
 
-
-
 #### The Travelling Salesman Problem on Simulate Annealing
 
 Simulated annealing algorithm is a random algorithm, it has a certain probability to find the global optimal solution
 
-
-
 <img title="" src="TravellingSalesman/Simuted_annlea.gif" alt="Simuted_annlea.gif" width="507">
-
-
 
 # Cross Entropy Methods
 
@@ -121,6 +115,10 @@ Here is the visualization of Search Gradient:
 <img src="Stochastic_Search/gif/SA.gif" title="" alt="SA.gif" width="551">
 
 # Classic-Search
+
+Path Searching Algorithms including DFS (Depth First Search), BFS (Breadth First Search), UCS(Uniform Cost Search) are formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). They maintains a tree of paths originating at the start node and extending those paths one edge at a time until its termination criterion is satisfied. Whereas these algorithms are all uninformed search: you don't know where you are unless you happen to hit the goal, A* search is a informed search with heuristic function to measure how close you are to the goal.
+
+Intuitively, it not only take account of the cost-to-come but also cost-to-go. We can see it as a special case of UCS whereas it uses the cost of real cost plus heuristic cost by adopting a heuristic function.
 
 ### Depth-First Search (DFS)
 
