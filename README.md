@@ -38,11 +38,11 @@ Example Function:
 
 - With a fixed learning rate [Code](NumericalOptimization/gradientDescentWithFixedRate.py)
   
-  <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/GradientDecWithFixedRate.gif" title="" alt="GradientDecWithFixedRate.gif" width="478">
+  <img src="Seach_and_Optimization/NumericalOptimization/gits/GradientDecWithFixedRate.gif" title="" alt="GradientDecWithFixedRate.gif" width="478">
 
 - With a Optimal learning rate [Code](NumericalOptimization/gradientDescentWithOptimalRate.py)
 
-    <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="491">
+    <img src="Seach_and_Optimization/NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="491">
 
 ### Newton Method
 
