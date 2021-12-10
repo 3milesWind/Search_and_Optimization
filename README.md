@@ -39,8 +39,6 @@ Example Function:
 - With a fixed learning rate [Code](NumericalOptimization/gradientDescentWithFixedRate.py)
   
   <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/GradientDecWithFixedRate.gif" title="" alt="GradientDecWithFixedRate.gif" width="439">
-  
-  
 
 - With a Optimal learning rate [Code](NumericalOptimization/gradientDescentWithOptimalRate.py)
 
@@ -112,20 +110,24 @@ Here is the visualization of Search Gradient:
 
 The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
+<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker.gif" alt="ezgif.com-gif-maker.gif" width="428">
+
 ### Breadth-first search (BFS)
 
 It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue is needed to keep track of the child nodes that were encountered but not yet explored.
 
-![ezgifcomgifmaker 2](file:///Users/guoyili/Desktop/Persist/job/PythonRobotics/README.assets/ezgif.com-gif-maker (2)-7201204.gif)
+
+
+<img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(1).gif" alt="ezgif.com-gif-maker (1).gif" width="442">
 
 ### Dijkstra
 
 For a given source node in the graph, the algorithm finds the shortest path between that node and every other with cost
 
-![ezgifcomgifmaker 3](file:///Users/guoyili/Desktop/Persist/job/PythonRobotics/README.assets/ezgif.com-gif-maker (3).gif)
+<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(3).gif" title="" alt="ezgif.com-gif-maker (3).gif" width="433">
 
 ### A*
 
 A* is an informed search algorithm, **or a best-first search**, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost
 
-![ezgifcomgifmaker 4](file:///Users/guoyili/Desktop/Persist/job/PythonRobotics/README.assets/ezgif.com-gif-maker (4).gif)
+<img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/Shortest-Path-of-Maze-Problem/gits/ezgif.com-gif-maker%20(4).gif" title="" alt="ezgif.com-gif-maker (4).gif" width="441">
