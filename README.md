@@ -38,19 +38,19 @@ Example Function:
 
 - With a fixed learning rate [Code](NumericalOptimization/gradientDescentWithFixedRate.py)
   
-  <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/GradientDecWithFixedRate.gif" title="" alt="GradientDecWithFixedRate.gif" width="478">
+  <img title="" src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/images/3aff67f0f886cdedf3779ed5dbe901d9275f0165.gif" alt="GradientDecWithFixedRate.gif" width="440">
 
 - With a Optimal learning rate [Code](NumericalOptimization/gradientDescentWithOptimalRate.py)
 
-    <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/gradient_Decent_Optiomal.gif" title="" alt="gradient_Decent_Optiomal.gif" width="491">
+    <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/images/a310724c645af508888fc445ca9725d256d2e0a9.gif" title="" alt="gradient_Decent_Optiomal.gif" width="487">
+
+    
 
 ### Newton Method
 
 Example Function: [Code](NumericalOptimization/NewtonMethod.py)
 
 <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/newtwonMethod.gif" title="" alt="newtwonMethod.gif" width="509">
-
-
 
 Newton's method is a powerful technique—in general the [convergence](https://en.wikipedia.org/wiki/Rate_of_convergence) is quadratic: as the method converges on the root, the difference between the root
 
@@ -73,8 +73,6 @@ See details on [Newton's method in optimization - Wikipedia](https://en.wikipedi
 For quadratic problems, we can do better than generic directions of gradient. In Gradient Descent if we take the steepest descent, we always go onthogonal in every step. Can we go faster? Yes, Newton's method gives us a faster one. But at the same time, we also want to avoid calculating the inversion of certain matrics. Conjugate gradients give us a better way to perform descent method because they allow us to minimize convex quadratic objectives in at most n steps and without inverting the matrics.
 
 <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/CD_1.gif" title="" alt="CD_1.gif" width="576">
-
-
 
 <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/NumericalOptimization/gits/CD_2.gif" title="" alt="CD_2.gif" width="580">
 
