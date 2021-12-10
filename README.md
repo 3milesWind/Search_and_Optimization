@@ -42,9 +42,9 @@ Example Function:
 
 - With a Optimal learning rate [Code](NumericalOptimization/gradientDescentWithOptimalRate.py)
 
-    <img src="file:///Users/guoyili/Documents/GitHub/Seach_and_Optimization/images/a310724c645af508888fc445ca9725d256d2e0a9.gif" title="" alt="gradient_Decent_Optiomal.gif" width="487">
+![gradient_Decent_Optiomal.gif](/Users/guoyili/Documents/GitHub/Seach_and_Optimization/images/a310724c645af508888fc445ca9725d256d2e0a9.gif)
 
-    
+ 
 
 ### Newton Method
 
