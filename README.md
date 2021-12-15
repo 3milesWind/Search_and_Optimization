@@ -36,6 +36,16 @@ This is a library for search and optimization algorithms. The basic topics are c
    
    git clone this repo
 
+2.  [All the Notes/Materials ](slides/)
+   
+   Credit: 
+   
+   > Sean/Sicun Gao
+   > 
+   > Assistant Professor
+   > 
+   > University of California, San Diego
+
 # Numerical Optimization
 
 *Numerical Optimization* presents a comprehensive and up-to-date description of the most effective methods in continuous optimization.
